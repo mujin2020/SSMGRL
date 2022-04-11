@@ -68,7 +68,7 @@ def printConfig(args):
 def main():
     args = get_args(
         model_name="SSMGRL",
-        dataset="freebase",
+        dataset="acm",
         custom_key="Node",  # Node: node classification  Clu: clustering   Sim: similarity
     )
     if args.dataset == "imdb" or args.dataset == "acm" :
