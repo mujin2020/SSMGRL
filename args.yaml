@@ -1,0 +1,184 @@
+DEFAULT: &DEFAULT
+  black_list: [1,2,0]
+  num_gpus_total: 4
+  num_gpus_to_use: 1
+  heads: 8
+  edge_sampling_ratio: 0.9
+  seed: 0
+  verbose: 2
+  save_model: False
+  save_plot: False
+  val_interval: 1
+
+SSMGRL: &SSMGRL
+  model_name: SSMGRL
+  <<: *DEFAULT
+
+SSMGRL-freebase-Node: &SSMGRL-freebase-Node
+  <<: *SSMGRL
+  cfg: [1024,128]
+  lambd0: 0.0001
+  lambd1: 0.0001
+  lambd2: 0.0001
+  lambd3: 0.005
+  lambd4: 0.0005
+  lambd5: 0.005
+  w_loss1: 10
+  w_loss2: 0.1
+  w_loss3: 10
+  w_loss4: 0.1
+  w_loss5: 1
+
+SSMGRL-freebase-Clu: &SSMGRL-freebase-Clu
+  <<: *SSMGRL
+  cfg: [1024,128]
+  lambd0: 0.0001
+  lambd1: 0.0001
+  lambd2: 0.0001
+  lambd3: 0.001
+  lambd4: 0.001
+  lambd5: 0.05
+  w_loss1: 0.1
+  w_loss2: 0.1
+  w_loss3: 10
+  w_loss4: 0.1
+  w_loss5: 10
+
+SSMGRL-freebase-Sim: &SSMGRL-freebase-Sim
+  <<: *SSMGRL
+  cfg: [1024,128]
+  lambd0: 0.0001
+  lambd1: 0.0001
+  lambd2: 0.0001
+  lambd3: 0.0005
+  lambd4: 0.01
+  lambd5: 0.001
+  w_loss1: 0.1
+  w_loss2: 10
+  w_loss3: 10
+  w_loss4: 10
+  w_loss5: 0.1
+
+SSMGRL-yelp-Node: &SSMGRL-yelp-Node
+  <<: *SSMGRL
+  test_epo: 800
+  test_lr: 0.6
+  iterater: 2
+  cfg: [512,128]
+  lambd0: 0.0001
+  lambd1: 0.0005
+  lambd2: 0.05
+  lambd3: 0.001
+  lambd4: 0.0005
+  lambd5: 0.05
+  w_loss1: 0.1
+  w_loss2: 0.1
+  w_loss3: 1
+  w_loss4: 1
+  w_loss5: 10
+
+
+SSMGRL-dblp-Node: &SSMGRL-DBLP-Node
+  <<: *SSMGRL
+  nb_epochs: 2200
+  cfg: [512,128]
+  lambd0: 0.0001
+  lambd1: 0.0001
+  lambd2: 0.0001
+  lambd3: 0.0005
+  lambd4: 0.0005
+  lambd5: 0.01
+  w_loss1: 0.1
+  w_loss2: 0.1
+  w_loss3: 0.1
+  w_loss4: 1
+  w_loss5: 10
+
+SSMGRL-dblp-Clu: &SSMGRL-DBLP-Clu
+  <<: *SSMGRL
+  nb_epochs: 2200
+  cfg: [512,128]
+  lambd0: 0.0001
+  lambd1: 0.0001
+  lambd2: 0.0001
+  lambd3: 0.0001
+  lambd4: 0.05
+  lambd5: 0.05
+  w_loss1: 1
+  w_loss2: 0.1
+  w_loss3: 10
+  w_loss4: 0.1
+  w_loss5: 10
+
+SSMGRL-dblp-Sim: &SSMGRL-DBLP-Sim
+  <<: *SSMGRL
+  nb_epochs: 2200
+  cfg: [512,128]
+  lambd0: 0.0001
+  lambd1: 0.0001
+  lambd2: 0.0001
+  lambd3: 0.0001
+  lambd4: 0.005
+  lambd5: 0.05
+  w_loss1: 0.1
+  w_loss2: 0.1
+  w_loss3: 1
+  w_loss4: 1
+  w_loss5: 10
+
+SSMGRL-acm-Node: &SSMGRL-acm-Node
+  <<: *SSMGRL
+  nb_epochs: 1500
+  cfg: [512,128]
+  lambd0: 0.01
+  lambd1: 0.009
+  lambd2: 0.006
+  w_loss1: 1
+  w_loss2: 1
+
+SSMGRL-acm-Clu: &SSMGRL-acm-Clu
+  <<: *SSMGRL
+  cfg: [512,128]
+  lambd0: 0.007
+  lambd1: 0.0001
+  lambd2: 0.002
+  w_loss1: 10
+  w_loss2: 1
+
+
+SSMGRL-acm-Sim: &SSMGRL-acm-Sim
+  <<: *SSMGRL
+  cfg: [512,128]
+  lambd0: 0.0001
+  lambd1: 0.003
+  lambd2: 0.004
+  w_loss1: 0.01
+  w_loss2: 1
+
+SSMGRL-imdb-Node: &SSMGRL-imdb-Node
+  <<: *SSMGRL
+  cfg: [512,128]
+  lambd0: 0.002
+  lambd1: 0.01
+  lambd2: 0.001
+  w_loss1: 1
+  w_loss2: 0.1
+
+SSMGRL-imdb-Clu: &SSMGRL-imdb-Clu
+  <<: *SSMGRL
+  cfg: [512,128]
+  lambd0: 0.01
+  lambd1: 0.0005
+  lambd2: 0.05
+  w_loss1: 0.1
+  w_loss2: 0.01
+
+SSMGRL-imdb-Sim: &SSMGRL-imdb-Sim
+  <<: *SSMGRL
+  cfg: [512,128]
+  lambd0: 0.05
+  lambd1: 0.005
+  lambd2: 0.01
+  w_loss1: 0.01
+  w_loss2: 0.1
+

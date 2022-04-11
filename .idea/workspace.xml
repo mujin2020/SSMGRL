@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bcec3b6-3b87-4623-979e-2fa3f035d98d" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="f2a4995a-35ab-435e-9513-fe582e33365d" />
+  <component name="ProjectId" id="27YzTPOtmJB0bRoRczokk2YgrPv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bcec3b6-3b87-4623-979e-2fa3f035d98d" name="Default Changelist" comment="" />
+      <created>1649511814527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649511814527</updated>
+      <workItem from="1649511815617" duration="1380000" />
+      <workItem from="1649513207036" duration="1601000" />
+      <workItem from="1649514819687" duration="598000" />
+      <workItem from="1649564704337" duration="1089000" />
+      <workItem from="1649685841996" duration="681000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1649565197110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649565197110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1649685902304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649685902304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="874" y="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1649512429972">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="874" y="408" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649512429972" />
+    <state x="216" y="103" key="DiffContextDialog" timestamp="1649512962237">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="216" y="103" key="DiffContextDialog/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649512962237" />
+    <state x="897" y="362" key="FileChooserDialogImpl" timestamp="1649685950118">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="897" y="362" key="FileChooserDialogImpl/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649685950118" />
+    <state x="938" y="526" key="Github.CreateGistDialog" timestamp="1649512391475">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="938" y="526" key="Github.CreateGistDialog/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649512391475" />
+    <state x="994" y="505" width="589" height="205" key="Github.ShareDialog" timestamp="1649565804737">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="994" y="505" width="589" height="205" key="Github.ShareDialog/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649565804737" />
+    <state x="975" y="312" key="Github.UntrackedFilesDialog" timestamp="1649514844152">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="975" y="312" key="Github.UntrackedFilesDialog/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649514844152" />
+    <state x="972" y="309" key="RollbackChangesDialog" timestamp="1649513187301">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="972" y="309" key="RollbackChangesDialog/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649513187301" />
+    <state x="625" y="252" key="SettingsEditor" timestamp="1649514770419">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="625" y="252" key="SettingsEditor/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649514770419" />
+    <state x="709" y="340" key="Vcs.Push.Dialog.v2" timestamp="1649564765488">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="709" y="340" key="Vcs.Push.Dialog.v2/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649564765488" />
+    <state x="932" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649565216655">
+      <screen x="0" y="0" width="2234" height="1216" />
+    </state>
+    <state x="932" y="520" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2234.1216/-1920.0.1676.902@0.0.2234.1216" timestamp="1649565216655" />
+  </component>
+</project>
